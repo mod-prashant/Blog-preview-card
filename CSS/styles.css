@@ -11,7 +11,7 @@
 /* root variables */
 :root {
   --font-base: 1rem; 
-  --font-small: 0.875rem;
+  --font-small: 0.9rem;
   --font-large: 1.25rem;
   --font-xlarge: 1.5rem;
   --yellow: hsl(47, 88%, 63%);
@@ -40,58 +40,62 @@ main {
   flex-direction: column;
 }
   
-/* Card */
+/* Card  -start*/
 .card {
   background: var(--white);
-  border-radius: 0.625rem;
-  box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.2);
+  border: solid rgb(0, 0, 0) 0.1rem;
+  border-radius: 0.7rem;
+  box-shadow: 0.6rem 0.6rem 0 rgb(0, 0, 0);
   overflow: hidden;
-  max-width: 22rem;
+  max-width: 20.5rem;
+  padding: 1.3rem;
 }
-  
+  /*card image*/
 .card-image img {
   width: 100%;
+  border-radius: 0.7rem;
   display: block;
 }
-  
+  /* card content -start */
 .card-content {
-  padding: 1.25rem;
+  padding-top: 1.3rem;
   color: var(--gray950);
 }
-  
+  /* tag */
 .tag {
   display: inline-block;
   background: var(--yellow);
   color: var(--gray950);
   font-size: var(--font-small);
-  padding: 0.25rem 0.625rem;
-  border-radius: 1.25rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.2rem;
   margin-bottom: 0.625rem;
 }
-  
+  /* date */
 .date {
-  color: var(--yellow);
+  color: var(--gray950);
   font-size: var(--font-small);
   margin-bottom: 0.625rem;
 }
-  
-.card-content h2 {
+  /* card header */
+.card-h {
   font-size: var(--font-large);
   font-weight: bold;
   margin-bottom: 0.625rem;
   color: var(--secondary-color);
 }
-.card-content h2:hover {
+.card-h:hover {
   color: var(--yellow);
 }
-  
-.card-content p {
-  font-size: var(--font-base);
+  /* card paragraph */
+.card-p {
+  font-size: var(--font-small);
   color: var(--gray500);
   line-height: 1.6em;
   margin-bottom: 1rem;
 }
-  
+ /* author */  
 .author {
   display: flex;
   align-items: center;
@@ -100,7 +104,7 @@ main {
 .author-avatar {
   width: 2rem;
   height: 2rem;
-  border-radius: 50%;
+  border-radius: 1rem;
   margin-right: 0.625rem;
 }
   
@@ -115,7 +119,6 @@ footer {
   text-align: center;
   padding:  0.5em 0;
   background-color: hsl(0, 0%, 100%);
-  border-top: 1px solid hsl(212, 45%, 89%);
   color: hsl(216, 15%, 48%);
 }
 
