@@ -38,11 +38,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Grid
 
 ### What I learned
 
-During this project, I refined my skills in using CSS Flexbox for creating responsive layouts and gained a deeper understanding of applying CSS custom properties effectively.
+During this project, I refined my skills in using CSS Grid for creating responsive layouts and gained a deeper understanding of applying CSS custom properties effectively.
 
 ### Continued development
 
