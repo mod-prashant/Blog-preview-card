@@ -21,9 +21,8 @@
 }
 
 body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 1fr;
   min-height: 100vh;
   padding: 16px; 
   margin: 0;
@@ -32,14 +31,13 @@ body{
   font-optical-sizing: auto;
   color: var(--gray950);
 }
-  
+
+/* main */
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
 }
-  
+/*  
 /* Card  -start*/
 .card {
   background: var(--white);
@@ -47,7 +45,7 @@ main {
   border-radius: 0.7rem;
   box-shadow: 0.6rem 0.6rem 0 rgb(0, 0, 0);
   overflow: hidden;
-  max-width: 22rem;
+  max-width: 21rem;
   padding: 1.3rem;
 }
   /*card image*/
@@ -115,6 +113,7 @@ main {
   
   /* Footer */
 footer {
+  width: 100%;
   font-size: 0.7rem;
   text-align: center;
   padding:  0.5em 0;
