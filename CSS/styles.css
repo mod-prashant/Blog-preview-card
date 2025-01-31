@@ -10,7 +10,7 @@
 
 /* root variables */
 :root {
-  --font-base: 1rem; 
+  --font-base: 1rem;
   --font-small: 0.9rem;
   --font-large: 1.25rem;
   --font-xlarge: 1.5rem;
@@ -24,8 +24,7 @@ body{
   display: grid;
   grid-template-rows: 1fr;
   min-height: 100vh;
-  padding: 16px; 
-  margin: 0;
+  padding: 16px;
   background-color: var(--yellow);
   font-family: "Outfit", serif;
   font-optical-sizing: auto;
@@ -37,7 +36,7 @@ main {
   display: grid;
   place-items: center;
 }
-/*  
+
 /* Card  -start*/
 .card {
   background: var(--white);
@@ -93,24 +92,24 @@ main {
   line-height: 1.6em;
   margin-bottom: 1rem;
 }
- /* author */  
+ /* author */
 .author {
   display: flex;
   align-items: center;
 }
-  
+
 .author-avatar {
   width: 2rem;
   height: 2rem;
   border-radius: 1rem;
   margin-right: 0.625rem;
 }
-  
+
 .author-name {
   font-size: var(--font-base);
   color: var(--gray950);
 }
-  
+
   /* Footer */
 footer {
   width: 100%;
@@ -126,4 +125,3 @@ footer a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
-  
